@@ -26,7 +26,7 @@ vector<member> getData(){
     vector<string> row;
     string line,word;
     fstream file;
-    file.open("C://Users//karee//OneDrive//Documents//GitHub//ECPC-Practice//data.csv");
+    file.open("data.csv");
     while (getline(file, line,'\n')) {
         row.clear();
        member mb;
